@@ -14496,10 +14496,9 @@ unique-slug@^2.0.0:
   dependencies:
     imurmurhash "^0.1.4"
 
-uniswap-xdai-sdk@^3.0.2-a3:
-  version "3.0.2-a3"
-  resolved "https://registry.yarnpkg.com/uniswap-xdai-sdk/-/uniswap-xdai-sdk-3.0.2-a3.tgz#8c27224ca4fd0cda30c09e816fb7c29e866e27ce"
-  integrity sha512-QV436m/u5yJztqvcadmn2P9AfPtmhFgQ4N6bHqaYbbN2ktyrDtsdXIvVzOnTH9s1gIjjTEmFYOFrwJCN1bR2zA==
+"uniswap-xdai-sdk@https://github.com/opendao-protocols/uniswap-sdk#main":
+  version "1.0.0"
+  resolved "https://github.com/opendao-protocols/uniswap-sdk#d08ebb2f6749e93d4c9d7d026b54b86c1daa3dc4"
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
